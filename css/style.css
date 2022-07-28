@@ -151,3 +151,75 @@ button {
 .card2 {
   flex-direction: row-reverse;
 }
+
+.team-container {
+  /* display: flex;
+  flex-direction: column; */
+  text-align: center;
+}
+
+.team-top {
+  margin: 4rem 10rem;
+  display: flex;
+  gap: 20rem;
+  text-align: left;
+}
+
+.team-card-container {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 4rem;
+}
+
+.team-card {
+  width: 400px;
+}
+
+.team-card img {
+  width: 400px;
+}
+
+.team-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.seemore-btn {
+  margin-top: 3rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: #0c1622;
+  color: #fff;
+  padding: 0 12rem;
+}
+
+.footer-heading {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(112, 112, 112, 0.393);
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  align-items: center;
+}
+
+.footer-links-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer-item {
+  margin: 1.2rem 0;
+  color: rgb(177, 177, 177);
+}
